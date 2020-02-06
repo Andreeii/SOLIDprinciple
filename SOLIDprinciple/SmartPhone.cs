@@ -4,11 +4,11 @@ using System.Text;
 
 namespace SOLIDprinciple
 {
-    class SmartPhone : IDevice
+    class Iphone : ISmartPhone
     {
 
-        int IDevice.Ram { set; get; }
-        String IDevice.Color { set; get; }
+        int ISmartPhone.Ram { set; get; }
+        String ISmartPhone.Color { set; get; }
 
 
         public bool isOpen = false;
@@ -39,11 +39,7 @@ namespace SOLIDprinciple
                 Console.WriteLine("Device is writeing " + text);
             }
         }
-        public String Runing()
-        {
-
-            return "this car is runing";
-        }
+//no ned to provide implementation of runing method  that don't have dirct relationship to this class
 
     }
 }

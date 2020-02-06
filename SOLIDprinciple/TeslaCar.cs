@@ -4,10 +4,9 @@ using System.Text;
 
 namespace SOLIDprinciple
 {
-    class TeslaCar : IDevice
+    class TeslaCar : IElectricCar
     {
-        int IDevice.Ram { set; get; }
-        String IDevice.Color { set; get; }
+        String IElectricCar.Color { set; get; }
 
 
         public bool isOpen = false;
@@ -28,12 +27,7 @@ namespace SOLIDprinciple
             Console.WriteLine("Car dors are cloed for using");
             return isOpen;
         }
-        public void Texting(String text)
-        {
-
-            Console.WriteLine("Car is writeing message" + text);
-
-        }
+//no need to implement functionality for texting method in car class
 
         public String Runing()
         {

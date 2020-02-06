@@ -4,9 +4,8 @@ using System.Text;
 
 namespace SOLIDprinciple
 {
-    interface IDevice
+    interface ISmartPhone
     {
-
         public int Ram { set; get; }
         public String Color { set; get; }
 
@@ -15,6 +14,7 @@ namespace SOLIDprinciple
 
         public void Texting(String text);
 
-        public String Runing();
+
+
     }
 }
