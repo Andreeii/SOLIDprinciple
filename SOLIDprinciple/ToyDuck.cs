@@ -7,11 +7,12 @@ namespace SOLIDprinciple
     class ToyDuck:Duck
     {
         String sound = "duck duck";
-        override public String MakeSound(String sound) {
+        override public String MakeSound() {
             return sound;
         }
 
-        override public String Live(String food) {
+        //violating liskovSubstitution
+        override public String Live() {
 
             return "dont need food";
         }

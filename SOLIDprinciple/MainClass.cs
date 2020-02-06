@@ -12,9 +12,9 @@ namespace SOLIDprinciple
 
             ToyDuck duck2 = new ToyDuck();
 
-            duck1.MakeSound();
+           Console.WriteLine(duck1.MakeSound());
 
-            duck1.Live();
+            Console.WriteLine(duck1.Live());
 
         }
     }
