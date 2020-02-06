@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SOLIDprinciple
 {
@@ -6,14 +7,15 @@ namespace SOLIDprinciple
     {
         static void Main(string[] args)
         {
-            String t = "afasdfsdaf";
-            SmartPhone nokia = new SmartPhone();
 
-            TeslaCar tesla = new TeslaCar();
+            VoicelessDuck duck1 = new VoicelessDuck();
 
-            nokia.isOpen = true;
+            ToyDuck duck2 = new ToyDuck();
 
-            Console.WriteLine(tesla.Close());
+            duck1.MakeSound();
+
+            duck1.Live();
+
         }
     }
 
