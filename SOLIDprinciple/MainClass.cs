@@ -16,6 +16,9 @@ namespace SOLIDprinciple
 
             Console.WriteLine(duck1.Live());
 
+            Console.WriteLine(duck2.price = 20);
+            Console.WriteLine(duck2.IsSound());
+
         }
     }
 

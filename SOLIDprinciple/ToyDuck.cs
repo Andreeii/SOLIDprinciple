@@ -4,17 +4,14 @@ using System.Text;
 
 namespace SOLIDprinciple
 {
-    class ToyDuck:Duck
+    class ToyDuck : Toy
     {
-        String sound = "duck duck";
-        override public String MakeSound() {
-            return sound;
-        }
 
-        //violating liskovSubstitution
-        override public String Live() {
+        
 
-            return "dont need food";
+        public override bool IsSound()
+        {
+            return true;
         }
     }
 }
