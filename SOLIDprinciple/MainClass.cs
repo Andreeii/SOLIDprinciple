@@ -7,7 +7,7 @@ namespace SOLIDprinciple
         static void Main(string[] args)
         {
             String t = "afasdfsdaf";
-            SmartPhone nokia = new SmartPhone();
+            Iphone nokia = new Iphone();
 
             TeslaCar tesla = new TeslaCar();
 
